@@ -1,0 +1,7 @@
+# dock-media bundle patch: mounts the media-player feature plugin row
+# (client half registers the 'media' file viewer against dock-files and
+# the matching editor-area view against dock; host half serves the
+# /dock-media/source streaming endpoint with HTTP Range support).
+- insert:
+    - id: dock-media
+      name: 'dock-media'
