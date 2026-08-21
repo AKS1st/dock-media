@@ -11,11 +11,12 @@
 
 /** The CSS text injected into the page. */
 const CSS = `
-.dm-root { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; }
+.dm-root { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; padding: 12px 16px; box-sizing: border-box; }
 .dm-root.dm-fullscreen {
   position: fixed !important;
   inset: 0 !important;
   z-index: 2147483000;
+  padding: 0 !important;
   background: var(--dsw-alias-bg-secondary, #0b0d10);
 }
 .dm-root.dm-fullscreen .dm-head {

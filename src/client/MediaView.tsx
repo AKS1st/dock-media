@@ -132,7 +132,7 @@ export function MediaView(props: ViewProps): ReactNode {
         className: 'dm-iconbtn',
         onClick: toggleFullscreen,
         title: fullscreen ? '退出全屏' : '全屏',
-      }, fullscreen ? 'exit' : 'fullscreen', ' 全屏'),
+      }, fullscreen ? '⛶ 退出全屏' : '⛶ 全屏'),
     ),
     // Player stage.
     info.kind === 'video'
