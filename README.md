@@ -26,9 +26,9 @@ dock 系列的媒体播放插件：为 dock-files 文件域注册 `media` 文件
 | 类别 | 扩展名 |
 | --- | --- |
 | 音频 | mp3, wav, ogg, oga, opus, flac, aac, m4a, weba, wma, mid, midi |
-| 视频 | mp4, m4v, webm, mov, mkv, ogv, avi, mpg, mpeg, flv, wmv, ts, 3gp |
+| 视频 | mp4, m4v, webm, mov, mkv, ogv, avi, mpg, mpeg, flv, wmv, 3gp |
 
-> 说明：浏览器能否解码头由**解码器**决定，与容器/扩展名无必然关系。`mp4`(H.264)、`webm`(VP8/VP9/AV1)、`mp3`、`flac`、`ogg` 等主流编码基本都能播；`avi`、`flv`、`wmv`、`mpg` 等旧封装在多数浏览器里**无法解码**，dock-media 会如实提示（建议用系统播放器）。
+> 说明：浏览器能否解码头由**解码器**决定，与容器/扩展名无必然关系。`mp4`(H.264)、`webm`(VP8/VP9/AV1)、`mp3`、`flac`、`ogg` 等主流编码基本都能播；`avi`、`flv`、`wmv`、`mpg` 等旧封装在多数浏览器里**无法解码**，dock-media 会如实提示（建议用系统播放器）。**`.ts` 归 TypeScript 源码（由 dock-editor 处理），dock-media 不接管。**
 
 ## 依赖
 

@@ -26,9 +26,9 @@ Media player plugin of the dock family: registers the `media` file viewer for au
 | Category | Extensions |
 | --- | --- |
 | Audio | mp3, wav, ogg, oga, opus, flac, aac, m4a, weba, wma, mid, midi |
-| Video | mp4, m4v, webm, mov, mkv, ogv, avi, mpg, mpeg, flv, wmv, ts, 3gp |
+| Video | mp4, m4v, webm, mov, mkv, ogv, avi, mpg, mpeg, flv, wmv, 3gp |
 
-> Note: whether the browser plays a file is decided by the **codec**, not the container/extension. Mainstream encodings — `mp4` (H.264), `webm` (VP8/VP9/AV1), `mp3`, `flac`, `ogg` — essentially always play; old containers such as `avi`, `flv`, `wmv`, `mpg` are **not decodable** in most browsers and dock-media will tell you honestly (use a system player for those).
+> Note: whether the browser plays a file is decided by the **codec**, not the container/extension. Mainstream encodings — `mp4` (H.264), `webm` (VP8/VP9/AV1), `mp3`, `flac`, `ogg` — essentially always play; old containers such as `avi`, `flv`, `wmv`, `mpg` are **not decodable** in most browsers and dock-media will tell you honestly (use a system player for those). **`.ts` belongs to TypeScript source (handled by dock-editor); dock-media does not claim it.**
 
 ## Dependencies
 

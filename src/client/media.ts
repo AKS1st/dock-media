@@ -41,7 +41,6 @@ const VIDEO_MIME: Record<string, string> = {
   mpeg: 'video/mpeg',
   flv: 'video/x-flv',
   wmv: 'video/x-ms-wmv',
-  ts: 'video/mp2t',
   '3gp': 'video/3gpp',
 }
 

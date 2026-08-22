@@ -31,8 +31,8 @@ interface FilesService {
 const MEDIA_EXTS = [
   // audio
   'mp3', 'wav', 'ogg', 'oga', 'opus', 'flac', 'aac', 'm4a', 'weba', 'wma', 'mid', 'midi',
-  // video
-  'mp4', 'm4v', 'webm', 'mov', 'mkv', 'ogv', 'avi', 'mpg', 'mpeg', 'flv', 'wmv', 'ts', '3gp',
+  // video  (NOTE: `.ts` is TypeScript source — owned by dock-editor, NOT media)
+  'mp4', 'm4v', 'webm', 'mov', 'mkv', 'ogv', 'avi', 'mpg', 'mpeg', 'flv', 'wmv', '3gp',
 ]
 
 /** Client plugin body. */
