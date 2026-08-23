@@ -52,6 +52,14 @@ dsh plugin add github:AKS1st/dock-files
 dsh plugin add github:AKS1st/dock-media
 ```
 
+从 npm registry 安装同样支持：
+
+```sh
+dsh plugin add dock-base
+dsh plugin add dock-files
+dsh plugin add dock-media
+```
+
 ## 安全
 
 `/dock-media` 路由只接受受信任来源（回环地址 / trustedHosts + 同源检查）的请求；`source` 为 GET（流式），`probe` 为 POST（元数据）。读取路径只要求是绝对路径、不限定会话工作区——对话上下文可能提及工作区外的媒体（如 `~/Music/...`、`~/.dsh/skills/...`），播放器可打开它们；路径只读、绝不写回。

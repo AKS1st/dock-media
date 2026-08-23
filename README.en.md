@@ -52,6 +52,14 @@ dsh plugin add github:AKS1st/dock-files
 dsh plugin add github:AKS1st/dock-media
 ```
 
+The same plugins are also available from the npm registry:
+
+```sh
+dsh plugin add dock-base
+dsh plugin add dock-files
+dsh plugin add dock-media
+```
+
 ## Security
 
 The `/dock-media` route only accepts requests from trusted origins (loopback / trustedHosts plus same-origin check); `source` is GET (streaming) and `probe` is POST (metadata). Read paths only need to be absolute — they are not confined to the session workspace, because the conversation context can mention media outside it (e.g. `~/Music/...`, `~/.dsh/skills/...`) and the player opens them; paths are read-only, never written back.
