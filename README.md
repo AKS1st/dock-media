@@ -49,17 +49,17 @@ dock 系列的媒体播放插件：为 dock-files 文件域注册 `media` 文件
 推荐从 npm registry 安装：
 
 ```sh
-dsh plugin add dock-base
-dsh plugin add dock-files
-dsh plugin add dock-media
+dsh plugin --profile web add dock-base
+dsh plugin --profile web add dock-files
+dsh plugin --profile web add dock-media
 ```
 
 或通过 GitHub 安装（备选）：
 
 ```sh
-dsh plugin add github:AKS1st/dock
-dsh plugin add github:AKS1st/dock-files
-dsh plugin add github:AKS1st/dock-media
+dsh plugin --profile web add github:AKS1st/dock
+dsh plugin --profile web add github:AKS1st/dock-files
+dsh plugin --profile web add github:AKS1st/dock-media
 ```
 
 ## 安全
