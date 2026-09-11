@@ -43,6 +43,13 @@ export function apply(ctx: WorkbenchContext): void {
   // anyway so a broken runtime degrades instead of throwing.
   if (workbench === undefined || files === undefined) return
 
+  ctx.effect(() => workbench.registerPlugin({
+    id: 'dock-media',
+    title: 'Media',
+    description: 'Media player for the dock file explorer: plays audio and video files with music and fullscreen playback modes.',
+    hasEntry: false,
+  }), 'dock-media: plugin metadata')
+
   // Player stylesheet (disc / equalizer / range / fullscreen backdrop).
   ctx.effect(() => mountStyles(), 'dock-media: styles')
 
