@@ -1,6 +1,6 @@
 {
   "name": "dock-media",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Media player for the dock file explorer: plays audio (MP3, WAV, OGG, FLAC, M4A, ...) and video (MP4, WebM, MOV, ...) files, with a music player for pure audio and fullscreen playback for video.",
   "type": "module",
   "repository": {
